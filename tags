@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+EOT	./tlp224.c	90;"	d	file:
+EXCHANGE_7816_SELECT	./main.c	/^unsigned char const EXCHANGE_7816_SELECT[] = {0xe4, 0x10, 0x01, 0x00,           $/;"	v
+GET_FIRST_CARD_A	./main.c	/^const unsigned char GET_FIRST_CARD_A[] = {0xe2, 0x01, 0x64};$/;"	v
+GET_FIRST_TCL_CARD_A	./main.c	/^const unsigned char GET_FIRST_TCL_CARD_A[] = {0xe2, 0x03, 0x00, 0x64};$/;"	v
+LONG_BEEP	./main.c	/^const unsigned char LONG_BEEP[] = {0x33, 0x20};$/;"	v
+PB_MAX	./tlp224.c	74;"	d	file:
+SHORT_BEEP	./main.c	/^const unsigned char SHORT_BEEP[] = {0x33, 0x04};$/;"	v
+TAPP_INTERVAL	./main.c	43;"	d	file:
+_tlp224_lrc	./tlp224.c	/^static int _tlp224_lrc(TLP224* const this)$/;"	f	file:
+_tlp224_verify_checksum	./tlp224.c	/^static int _tlp224_verify_checksum(TLP224* const this)$/;"	f	file:
+do_loop	./main.c	/^int do_loop (int fd, TLP224* const req, TLP224* const resp)$/;"	f
+exchange_command	./main.c	/^int exchange_command(const unsigned char* cmd, int cmd_len, TLP224* const req, TLP224* const resp, const int fd)$/;"	f
+main	./main.c	/^int main(int argc, char* argv[])$/;"	f
+serial_set_blocking	./serial.c	/^void serial_set_blocking (int fd, int should_block)$/;"	f
+serial_set_interface_attribs	./serial.c	/^int serial_set_interface_attribs (int fd, int speed, int parity)$/;"	f
+tlp224_deserialize	./tlp224.c	/^int tlp224_deserialize(TLP224* const this, int fis)$/;"	f
+tlp224_destroy	./tlp224.c	/^int tlp224_destroy(TLP224* const this)$/;"	f
+tlp224_init	./tlp224.c	/^int tlp224_init(TLP224* const this)$/;"	f
+tlp224_payload	./tlp224.c	/^int tlp224_payload(TLP224* const this, int offset, unsigned const char* const data, int length)$/;"	f
+tlp224_print	./tlp224.c	/^char* tlp224_print(const TLP224* const this)$/;"	f
+tlp224_serialize	./tlp224.c	/^int tlp224_serialize(TLP224* const this, int fos)$/;"	f
+verify_uid	./main.c	/^bool verify_uid(int uid) {$/;"	f
