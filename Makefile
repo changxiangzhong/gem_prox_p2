@@ -5,7 +5,7 @@ OBJ=tlp224.o main.o serial.o
 EXECUTABLE=lock
 
 dist: $(OBJ)
-	$(CC) -o $(EXECUTABLE) tlp224.o main.o serial.o
+	$(CC) -o $(EXECUTABLE) $(OBJ)
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $<  $(CFLAGS)
